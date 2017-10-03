@@ -5,8 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:servey"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Contact Information" Height="350" Width="500">
     <Grid>
-        
+        <Grid.OpacityMask>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.OpacityMask>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFB9B9B9" Offset="1"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="331,267,0,0" VerticalAlignment="Top" Width="100" Height="29"/>
+        <Label Content="Name :" Margin="0,24,346,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label Content="Date of Birth :" Margin="0,74,346,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label Content="Gender :" Margin="0,126,346,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label Content="City :" Margin="0,174,346,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label Content="Province :" Margin="0,225,346,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="150,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" SpellCheck.IsEnabled="True"/>
+        <DatePicker HorizontalAlignment="Left" Margin="151,75,0,0" VerticalAlignment="Top" Width="280"/>
+        <RadioButton Content="Male" HorizontalAlignment="Left" Margin="151,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
+        <RadioButton Content="Female" HorizontalAlignment="Left" Margin="226,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.475,0.959"/>
+        <ComboBox HorizontalAlignment="Left" Margin="151,225,0,0" VerticalAlignment="Top" Width="279" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.115"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+            <ComboBoxItem Content="Ontario" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Quebec" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Nova Scotia" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="New Brunswick" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Manitoba" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="British Columbia" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Prince Edward Island" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Saskatchewan" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Alberta" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Newfoundland and Labrador" HorizontalAlignment="Left" Width="277"/>
+        </ComboBox>
+
     </Grid>
 </Window>
