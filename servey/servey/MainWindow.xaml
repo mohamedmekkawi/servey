@@ -36,7 +36,7 @@
         <DatePicker HorizontalAlignment="Left" Margin="151,75,0,0" VerticalAlignment="Top" Width="280"/>
         <RadioButton Content="Male" HorizontalAlignment="Left" Margin="151,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
         <RadioButton Content="Female" HorizontalAlignment="Left" Margin="226,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.475,0.959"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.475,0.959" Text="City" Foreground="#FFCDCDCD"/>
         <ComboBox HorizontalAlignment="Left" Margin="151,225,0,0" VerticalAlignment="Top" Width="279" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBox.RenderTransform>
                 <TransformGroup>

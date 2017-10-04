@@ -54,8 +54,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Question1.xaml.cs">
-      <DependentUpon>Question1.xaml</DependentUpon>
+    <Compile Include="Question03.xaml.cs">
+      <DependentUpon>Question03.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="startSurvey.xaml.cs">
+      <DependentUpon>startSurvey.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Question02.xaml.cs">
+      <DependentUpon>Question02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Question01.xaml.cs">
+      <DependentUpon>Question01.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -70,7 +79,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Question1.xaml">
+    <Page Include="Question03.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="startSurvey.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Question02.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Question01.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
