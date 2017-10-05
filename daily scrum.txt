@@ -1,11 +1,32 @@
 Date: 4-10-2017
 Name: mohamed Mekkawi
 
-what i have i done:
-MainWindow
-Question1
-Survey Application description
-db table desigen
+what i have i done?
+* MainWindow
+* Question1
+* Survey Application description
+* db table desigen
+
+what will i do from now until next Scrum
+* create 6 user Stories in trello and break it in boints
+
+where do i need help from my teasmmte, or internet?
+
+
+=================================================================
+
+Date: 5-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+* submit the proposal
+* Actors
+* High level Design
+* Actions
+* Class Diagram
+* db Schema
+* user MainWindow
+* Question2
 
 what will i do from now until next Scrum
 * create 6 user Stories in trello and break it in boints
