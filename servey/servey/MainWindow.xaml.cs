@@ -41,5 +41,16 @@ namespace servey
         {
             //this.NavigationService.Navigate(new Uri("Question01.xaml", UriKind.RelativeOrAbsolute));
         }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window1 windo = new Window1();
+            windo.Show();
+        }
     }
 }

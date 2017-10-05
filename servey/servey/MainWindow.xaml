@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Contact Information" Height="350" Width="500">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <Grid.OpacityMask>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0"/>
@@ -19,25 +23,10 @@
                 <GradientStop Color="White"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="331,267,0,0" VerticalAlignment="Top" Width="100" Height="29">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFA6A6A6" Offset="1"/>
-                    <GradientStop Color="White"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Label Content="Name :" Margin="0,24,346,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-        <Label Content="Date of Birth :" Margin="0,74,346,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-        <Label Content="Gender :" Margin="0,126,346,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-        <Label Content="City :" Margin="0,174,346,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-        <Label Content="Province :" Margin="0,225,346,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="150,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" SpellCheck.IsEnabled="True" Text="Full Name" Foreground="#FFCDCDCD"/>
-        <DatePicker HorizontalAlignment="Left" Margin="151,75,0,0" VerticalAlignment="Top" Width="280"/>
-        <RadioButton Content="Male" HorizontalAlignment="Left" Margin="151,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
-        <RadioButton Content="Female" HorizontalAlignment="Left" Margin="226,131,0,0" VerticalAlignment="Top" GroupName="gender"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="151,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.475,0.959" Text="City" Foreground="#FFCDCDCD"/>
-        <ComboBox HorizontalAlignment="Left" Margin="151,225,0,0" VerticalAlignment="Top" Width="279" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged">
+        <Image HorizontalAlignment="Left" Height="219" Margin="102,10,0,0" VerticalAlignment="Top" Width="287" Source="images/splash.png" Grid.ColumnSpan="2"/>
+
+        <Label Content="For Admin Please Choose One Of the List" Margin="0,240,136,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.ColumnSpan="2"/>
+        <ComboBox HorizontalAlignment="Left" Margin="1,268,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged" Height="28" Grid.Column="1">
             <ComboBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -46,17 +35,26 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </ComboBox.RenderTransform>
-            <ComboBoxItem Content="Ontario" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Quebec" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Nova Scotia" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="New Brunswick" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Manitoba" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="British Columbia" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Prince Edward Island" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Saskatchewan" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Alberta" HorizontalAlignment="Left" Width="277"/>
-            <ComboBoxItem Content="Newfoundland and Labrador" HorizontalAlignment="Left" Width="277"/>
+            <ComboBoxItem Content="Login" HorizontalAlignment="Left" Width="129" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="Add New Survey" HorizontalAlignment="Left" Width="129"/>
+            <ComboBoxItem Content="View Result" HorizontalAlignment="Left" Width="125"/>
         </ComboBox>
+        <Button Content="Start Survey" HorizontalAlignment="Left" Margin="196,161,0,0" VerticalAlignment="Top" Width="100" Height="29" Grid.ColumnSpan="2" Click="Button_Click_1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA6A6A6" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="117,271,0,0" VerticalAlignment="Top" Width="119" Height="24">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA6A6A6" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

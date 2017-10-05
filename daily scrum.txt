@@ -32,3 +32,7 @@ what will i do from now until next Scrum
 * create 6 user Stories in trello and break it in boints
 
 where do i need help from my teasmmte, or internet?
+
+
+
+sstorage.database.windows.net
