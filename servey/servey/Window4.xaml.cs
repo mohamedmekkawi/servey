@@ -15,18 +15,18 @@ using System.Windows.Shapes;
 namespace servey
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for Window4.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Window4 : Window
     {
-        public Window2()
+        public Window4()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window3 windo = new Window3();
+            Window5 windo = new Window5();
             windo.Show();
         }
     }

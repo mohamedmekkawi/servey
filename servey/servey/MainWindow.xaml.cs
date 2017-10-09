@@ -52,5 +52,10 @@ namespace servey
             Window1 windo = new Window1();
             windo.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
