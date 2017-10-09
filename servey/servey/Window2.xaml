@@ -8,17 +8,20 @@
         Title="Window2" Height="350" Width="500">
     <Grid>
         <Label Content="Date of your visit :" HorizontalAlignment="Left" Margin="111,64,0,0" VerticalAlignment="Top"/>
-        <Label Content="Time of your visit :" HorizontalAlignment="Left" Margin="111,155,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="122,198,0,0" VerticalAlignment="Top" Width="120">
+        <Label Content="Time of your visit :" HorizontalAlignment="Left" Margin="111,120,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="248,124,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.705,-1.245">
             <ComboBoxItem Content="06am - 10am" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="10am - 02pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="02pm - 05pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="05pm - 10pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="10pm - 06am" HorizontalAlignment="Left" Width="118"/>
         </ComboBox>
-        <DatePicker HorizontalAlignment="Left" Margin="122,95,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="248,73,0,0" VerticalAlignment="Top" Width="120"/>
         <Button Content="Next" HorizontalAlignment="Left" Margin="368,270,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Back" HorizontalAlignment="Left" Margin="271,270,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Please Select Your Visit Type:" HorizontalAlignment="Left" Margin="56,179,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="In-Resturent (to go)" HorizontalAlignment="Left" Margin="248,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,1.847"/>
+        <RadioButton Content="In-Resturent (dine-in)" HorizontalAlignment="Left" Margin="248,208,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
