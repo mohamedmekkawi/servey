@@ -33,6 +33,64 @@ what will i do from now until next Scrum
 
 where do i need help from my teasmmte, or internet?
 
+=================================================================
+
+Date: 6-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+Setting Up AZURE
+Connecting to AZURE DATABASE
+ 
+
+what will i do from now until next Scrum
+Design the Database
+
+where do i need help from my teasmmte, or internet?
+
+===============================================================
+
+Date: 7-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+Finish the user interface
+ 
+
+what will i do from now until next Scrum
+Design the Admins interface
 
 
-sstorage.database.windows.net
+where do i need help from my teasmmte, or internet?
+
+==============================================================
+
+Date: 8-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+the Admins interface
+ 
+
+what will i do from now until next Scrum
+add event handler 
+
+
+where do i need help from my teasmmte, or internet?
+
+=============================================================
+
+Date: 9-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+add event handler
+ 
+
+what will i do from now until next Scrum
+
+
+
+where do i need help from my teasmmte, or internet?
+
+=============================================================
