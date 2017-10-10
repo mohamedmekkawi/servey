@@ -23,7 +23,7 @@
                 <GradientStop Color="White"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Image HorizontalAlignment="Left" Height="219" Margin="102,10,0,0" VerticalAlignment="Top" Width="287" Source="images/splash.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="219" Margin="102,10,0,0" VerticalAlignment="Top" Width="287" Source="images/splash.png" Grid.ColumnSpan="2" Stretch="Fill"/>
 
         <Label Content="For Admin Please Choose One" Margin="0,240,148,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.ColumnSpan="2" Width="196" FontSize="14"/>
         <Button x:Name="btStartSurvey" Content="Start Survey" HorizontalAlignment="Left" Margin="200,161,0,0" VerticalAlignment="Top" Width="92" Height="29" Grid.ColumnSpan="2" BorderBrush="{x:Null}" Click="btStartSurvey_Click">

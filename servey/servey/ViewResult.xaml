@@ -7,13 +7,26 @@
         mc:Ignorable="d"
         Title="View Result" Height="350" Width="500" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label Content="Select any survey:" HorizontalAlignment="Left" Margin="25,34,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="133,38,0,0" VerticalAlignment="Top" Width="325">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Select any survey:" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="133,35,0,0" VerticalAlignment="Top" Width="325" Height="26">
             <ComboBoxItem Content="First survey" HorizontalAlignment="Left" Width="347"/>
             <ComboBoxItem Content="Second survey" HorizontalAlignment="Left" Width="347"/>
             <ComboBoxItem Content="Third survey" HorizontalAlignment="Left" Width="347"/>
         </ComboBox>
-        <Button x:Name="btViewsSurveyResult" Content="View Result" HorizontalAlignment="Left" Margin="383,82,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btViewsSurveyResult" Content="View Result" HorizontalAlignment="Left" Margin="357,82,0,0" VerticalAlignment="Top" Width="100" Height="24">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

@@ -23,5 +23,10 @@ namespace servey
         {
             InitializeComponent();
         }
+
+        private void btSubmitSurvey_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

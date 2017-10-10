@@ -6,22 +6,46 @@
         xmlns:local="clr-namespace:servey"
         mc:Ignorable="d"
         Title="Window2" Height="350" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+            <GradientStop Color="White"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid>
-        <Label Content="Date of your visit :" HorizontalAlignment="Left" Margin="111,64,0,0" VerticalAlignment="Top"/>
-        <Label Content="Time of your visit :" HorizontalAlignment="Left" Margin="111,120,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="248,124,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.705,-1.245">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Date of your visit :" HorizontalAlignment="Left" Margin="126,45,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Time of your visit :" HorizontalAlignment="Left" Margin="125,103,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="1,103,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.705,-1.245" Height="26" Grid.Column="1">
             <ComboBoxItem Content="06am - 10am" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="10am - 02pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="02pm - 05pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="05pm - 10pm" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="10pm - 06am" HorizontalAlignment="Left" Width="118"/>
         </ComboBox>
-        <DatePicker HorizontalAlignment="Left" Margin="248,73,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="368,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="271,270,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label Content="Please Select Your Visit Type:" HorizontalAlignment="Left" Margin="56,179,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="In-Resturent (to go)" HorizontalAlignment="Left" Margin="248,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,1.847"/>
-        <RadioButton Content="In-Resturent (dine-in)" HorizontalAlignment="Left" Margin="248,208,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="1,45,0,0" VerticalAlignment="Top" Width="180" Height="26" Grid.Column="1"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="122.41,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Height="24" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="5.41,270,0,0" VerticalAlignment="Top" Width="100" Height="24" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="Please Select Your Visit Type :" HorizontalAlignment="Left" Margin="64,172,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton Content="In-Resturent ( To Go )" HorizontalAlignment="Left" Margin="1,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,1.847" Grid.Column="1"/>
+        <RadioButton Content="In-Resturent ( Dine-In )" HorizontalAlignment="Left" Margin="1,188,0,0" VerticalAlignment="Top" Grid.Column="1"/>
 
     </Grid>
 </Window>

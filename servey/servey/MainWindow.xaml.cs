@@ -31,18 +31,21 @@ namespace servey
         {
             Window1 windo = new Window1();
             windo.Show();
+            this.Close();
         }
 
         private void btViewResult_Click(object sender, RoutedEventArgs e)
         {
             ViewResult windo = new ViewResult();
             windo.Show();
+            this.Close();
         }
 
         private void btAddNewSurvey_Click(object sender, RoutedEventArgs e)
         {
             AddNewSurvey windo = new AddNewSurvey();
             windo.Show();
+            this.Close();
         }
     }
 }
