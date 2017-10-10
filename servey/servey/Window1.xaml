@@ -18,19 +18,19 @@
         <Label Content="Email :" HorizontalAlignment="Left" Margin="99,97,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Gender :" HorizontalAlignment="Left" Margin="88,129,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Location :" HorizontalAlignment="Left" Margin="82,159,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,23,0,0" TextWrapping="Wrap" Text="Full Name" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
             <TextBox.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
             </TextBox.Foreground>
         </TextBox>
         <RadioButton Content="Male" HorizontalAlignment="Left" Margin="150,136,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="Female" HorizontalAlignment="Left" Margin="213,136,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,60,0,0" TextWrapping="Wrap" Text="5146196420" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
             <TextBox.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
             </TextBox.Foreground>
         </TextBox>
-        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,97,0,0" TextWrapping="Wrap" Text="UserName@mail.com" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="150,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" VerticalContentAlignment="Center">
             <TextBox.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
             </TextBox.Foreground>
