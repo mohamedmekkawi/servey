@@ -27,35 +27,22 @@ namespace servey
             InitializeComponent();
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //this.NavigationService.Navigate(new Uri("Question01.xaml", UriKind.RelativeOrAbsolute));
-        }
-
-        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void btStartSurvey_Click(object sender, RoutedEventArgs e)
         {
             Window1 windo = new Window1();
             windo.Show();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void btViewResult_Click(object sender, RoutedEventArgs e)
         {
+            ViewResult windo = new ViewResult();
+            windo.Show();
+        }
 
+        private void btAddNewSurvey_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewSurvey windo = new AddNewSurvey();
+            windo.Show();
         }
     }
 }

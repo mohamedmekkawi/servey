@@ -25,21 +25,16 @@
         </Grid.Background>
         <Image HorizontalAlignment="Left" Height="219" Margin="102,10,0,0" VerticalAlignment="Top" Width="287" Source="images/splash.png" Grid.ColumnSpan="2"/>
 
-        <Label Content="For Admin Please Choose One Of the List" Margin="0,240,136,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.ColumnSpan="2"/>
-        <ComboBox HorizontalAlignment="Left" Margin="1,268,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.5,0.5" SelectionChanged="ComboBox_SelectionChanged" Height="28" Grid.Column="1">
-            <ComboBox.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.115"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </ComboBox.RenderTransform>
-            <ComboBoxItem Content="Login" HorizontalAlignment="Left" Width="129" Selected="ComboBoxItem_Selected"/>
-            <ComboBoxItem Content="Add New Survey" HorizontalAlignment="Left" Width="129"/>
-            <ComboBoxItem Content="View Result" HorizontalAlignment="Left" Width="125"/>
-        </ComboBox>
-        <Button Content="Start Survey" HorizontalAlignment="Left" Margin="196,161,0,0" VerticalAlignment="Top" Width="100" Height="29" Grid.ColumnSpan="2" Click="Button_Click_1">
+        <Label Content="For Admin Please Choose One" Margin="0,240,148,0" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.ColumnSpan="2" Width="196" FontSize="14"/>
+        <Button x:Name="btStartSurvey" Content="Start Survey" HorizontalAlignment="Left" Margin="200,161,0,0" VerticalAlignment="Top" Width="92" Height="29" Grid.ColumnSpan="2" BorderBrush="{x:Null}" Click="btStartSurvey_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF838383" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btAddNewSurvey" Content="Add New Survey" HorizontalAlignment="Left" Margin="117,271,0,0" VerticalAlignment="Top" Width="119" Height="24" BorderBrush="{x:Null}" Click="btAddNewSurvey_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA6A6A6" Offset="1"/>
@@ -47,7 +42,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="117,271,0,0" VerticalAlignment="Top" Width="119" Height="24" Click="Button_Click_2">
+        <Button x:Name="btViewResult" Content="View Results" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top" Width="119" Height="24" Grid.Column="1" BorderBrush="{x:Null}" Click="btViewResult_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA6A6A6" Offset="1"/>
