@@ -14,7 +14,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Label Content="Select any survey:" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="133,35,0,0" VerticalAlignment="Top" Width="325" Height="26">
+        <ComboBox HorizontalAlignment="Left" Margin="133,35,0,0" VerticalAlignment="Top" Width="325" Height="26" VerticalContentAlignment="Center">
             <ComboBoxItem Content="First survey" HorizontalAlignment="Left" Width="347"/>
             <ComboBoxItem Content="Second survey" HorizontalAlignment="Left" Width="347"/>
             <ComboBoxItem Content="Third survey" HorizontalAlignment="Left" Width="347"/>

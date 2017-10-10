@@ -24,7 +24,13 @@ namespace servey
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btwin2back_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 windo = new Window1();
+            windo.Show();
+        }
+
+        private void btwin2Next_Click(object sender, RoutedEventArgs e)
         {
             Window3 windo = new Window3();
             windo.Show();

@@ -26,7 +26,7 @@
         <RadioButton Content="No" HorizontalAlignment="Left" Margin="1,132,0,0" VerticalAlignment="Top" Background="{x:Null}" Grid.Column="1"/>
         <Label Content="Were you satisfied with your &#xD;&#xA;food/other beverage?" HorizontalAlignment="Left" Margin="61,166,0,0" VerticalAlignment="Top" Height="44" FontWeight="Bold"/>
         <RadioButton Content="Yes" HorizontalAlignment="Left" Margin="1,172,0,0" VerticalAlignment="Top" Background="{x:Null}" Grid.Column="1"/>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Grid.Column="1" Height="24">
+        <Button x:Name="win3Next" Content="Next" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Grid.Column="1" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
@@ -34,7 +34,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24">
+        <Button x:Name="win3Back" Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>

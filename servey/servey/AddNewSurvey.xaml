@@ -26,41 +26,41 @@
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddSurveyTitel" HorizontalAlignment="Left" Height="20" Margin="189,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <TextBox x:Name="tbAddFirstQuestion" HorizontalAlignment="Left" Height="20" Margin="189,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
-        <TextBox x:Name="tbAddFirstAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddSurveyTitel" HorizontalAlignment="Left" Height="20" Margin="189,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstQuestion" HorizontalAlignment="Left" Height="20" Margin="189,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
         <Label Content="Add the Second Answer for Q1 :" HorizontalAlignment="Right" Margin="0,100,308,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}">
             <Label.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddSecondAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddSecondAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
         <Label Content="Add the Third Answer for Q1 :" HorizontalAlignment="Right" Margin="0,127,308,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}">
             <Label.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddthirdAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddthirdAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="189,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
         <Label Content="Add the Second Question :" HorizontalAlignment="Right" Margin="0,167,308,0" VerticalAlignment="Top" Height="22" FontSize="10" FontWeight="Bold"/>
         <Label Content="Add the First Answer for Q2 :" HorizontalAlignment="Right" Margin="0,192,308,0" VerticalAlignment="Top" Height="22" FontSize="10">
             <Label.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddSecondQuestion" HorizontalAlignment="Left" Height="20" Margin="189,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
-        <TextBox x:Name="tbAddFirstAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddSecondQuestion" HorizontalAlignment="Left" Height="20" Margin="189,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
         <Label Content="Add the Second Answer for Q2 :" HorizontalAlignment="Right" Margin="0,219,308,0" VerticalAlignment="Top" Height="22" FontSize="10">
             <Label.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddSecondAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddSecondAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
         <Label Content="Add the Third Answer for Q2 :" HorizontalAlignment="Right" Margin="0,246,308,0" VerticalAlignment="Top" Height="22" FontSize="10">
             <Label.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="tbAddthirdAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="tbAddthirdAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="189,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

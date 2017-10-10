@@ -30,7 +30,7 @@
         <RadioButton Content="No" Grid.Column="1" HorizontalAlignment="Left" Margin="66,171,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="Yes" Grid.Column="1" HorizontalAlignment="Left" Margin="0,212,0,0" VerticalAlignment="Top"/>
         <RadioButton Content="No" Grid.Column="1" HorizontalAlignment="Left" Margin="66,212,0,0" VerticalAlignment="Top"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24">
+        <Button x:Name="win4Back" Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
@@ -38,7 +38,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Grid.Column="1" Height="24">
+        <Button x:Name="win4Next" Content="Next" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Grid.Column="1" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>

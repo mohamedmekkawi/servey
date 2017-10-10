@@ -24,10 +24,6 @@ namespace servey
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window6 windo = new Window6();
-            windo.Show();
-        }
+        
     }
 }

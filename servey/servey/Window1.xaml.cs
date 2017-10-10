@@ -29,5 +29,11 @@ namespace servey
             Window2 windo = new Window2();
             windo.Show();
         }
+
+        private void btwin1Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow windo = new MainWindow();
+            windo.Show();
+        }
     }
 }
