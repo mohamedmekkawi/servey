@@ -34,7 +34,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="win3Back" Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24">
+        <Button x:Name="win3Back" Content="Back" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24" Click="win3Back_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>

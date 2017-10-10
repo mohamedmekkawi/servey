@@ -28,6 +28,14 @@ namespace servey
         {
             Window4 windo = new Window4();
             windo.Show();
+            this.Close();
+        }
+
+        private void win3Back_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 windo = new Window2();
+            windo.Show();
+            this.Close();
         }
     }
 }

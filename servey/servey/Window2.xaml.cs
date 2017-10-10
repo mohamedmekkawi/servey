@@ -28,12 +28,14 @@ namespace servey
         {
             Window1 windo = new Window1();
             windo.Show();
+            this.Close();
         }
 
         private void btwin2Next_Click(object sender, RoutedEventArgs e)
         {
             Window3 windo = new Window3();
             windo.Show();
+            this.Close();
         }
     }
 }
