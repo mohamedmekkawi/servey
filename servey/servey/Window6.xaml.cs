@@ -23,5 +23,18 @@ namespace servey
         {
             InitializeComponent();
         }
+
+        private void btgohome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow windo = new MainWindow();
+            windo.Show();
+            this.Close();
+        }
+
+        private void btgohome_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            
+            this.Close();
+        }
     }
 }

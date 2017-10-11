@@ -18,8 +18,24 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Image HorizontalAlignment="Left" Height="133" Margin="81,46,0,0" VerticalAlignment="Top" Width="331" Source="images/thankyou.png" Grid.ColumnSpan="2"/>
-        <Label Content="You've just made our day!" HorizontalAlignment="Left" Margin="104,181,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="24"/>
-        <Label Content="See you soon!" HorizontalAlignment="Left" Margin="167,222,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="24"/>
+        <Label Content="You've just made our day!" HorizontalAlignment="Left" Margin="104,153,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="24"/>
+        <Label Content="See you soon!" HorizontalAlignment="Left" Margin="167,201,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="24"/>
+        <Button x:Name="btgohome" Content="Home" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24" Click="btgohome_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btgohome_Copy" Content="Close" HorizontalAlignment="Left" Margin="124,271,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="24" Click="btgohome_Copy_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
