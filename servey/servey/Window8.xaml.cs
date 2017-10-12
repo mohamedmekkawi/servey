@@ -15,27 +15,18 @@ using System.Windows.Shapes;
 namespace servey
 {
     /// <summary>
-    /// Interaction logic for Window6.xaml
+    /// Interaction logic for Window8.xaml
     /// </summary>
-    public partial class Window6 : Window
+    public partial class Window8 : Window
     {
-        public Window6()
+        public Window8()
         {
             InitializeComponent();
         }
 
-        private void btgohome_Click(object sender, RoutedEventArgs e)
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow windo = new MainWindow();
-            windo.Show();
-            this.Close();
-        }
 
-      
-
-        private void btgoclose(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }

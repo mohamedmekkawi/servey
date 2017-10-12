@@ -19,7 +19,7 @@
             <ComboBoxItem Content="Second survey" HorizontalAlignment="Left" Width="347"/>
             <ComboBoxItem Content="Third survey" HorizontalAlignment="Left" Width="347"/>
         </ComboBox>
-        <Button x:Name="btViewsSurveyResult" Content="View Result" HorizontalAlignment="Left" Margin="357,82,0,0" VerticalAlignment="Top" Width="100" Height="24">
+        <Button x:Name="btViewsSurveyResult" Content="View Result" HorizontalAlignment="Left" Margin="357,82,0,0" VerticalAlignment="Top" Width="100" Height="24" Click="btViewsSurveyResult_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>

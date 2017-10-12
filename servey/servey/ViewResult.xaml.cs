@@ -23,5 +23,12 @@ namespace servey
         {
             InitializeComponent();
         }
+
+        private void btViewsSurveyResult_Click(object sender, RoutedEventArgs e)
+        {
+            Window8 windo = new Window8();
+            windo.Show();
+            this.Close();
+        }
     }
 }
