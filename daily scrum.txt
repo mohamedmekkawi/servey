@@ -105,6 +105,8 @@ Finish the user interface
 
 what will i do from now until next Scrum
 Design the Admins interface
+DB table
+DB relation
 
 
 where do i need help from my teasmmte, or internet?
@@ -115,14 +117,29 @@ Date: 11-10-2017
 Name: mohamed Mekkawi
 
 what i have i done?
-the Admins interface
+DB table
+DB relation
  
 
 what will i do from now until next Scrum
 add event handler 
-
+Design the Admins interface
 
 where do i need help from my teasmmte, or internet?
 
 =============================================================
 
+
+Date: 12-10-2017
+Name: mohamed Mekkawi
+
+what i have i done?
+ 
+
+what will i do from now until next Scrum
+
+
+
+where do i need help from my teasmmte, or internet?
+
+=============================================================
