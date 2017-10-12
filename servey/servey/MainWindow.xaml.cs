@@ -47,5 +47,12 @@ namespace servey
             windo.Show();
             this.Close();
         }
+
+        private void btlogin_Click(object sender, RoutedEventArgs e)
+        {
+            loginArea windo = new loginArea();
+            windo.Show();
+            this.Close();
+        }
     }
 }
