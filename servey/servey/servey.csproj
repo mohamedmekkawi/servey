@@ -72,6 +72,9 @@
     <Compile Include="AddNewSurvey.xaml.cs">
       <DependentUpon>AddNewSurvey.xaml</DependentUpon>
     </Compile>
+    <Compile Include="addSurvey.xaml.cs">
+      <DependentUpon>addSurvey.xaml</DependentUpon>
+    </Compile>
     <Compile Include="loginArea.xaml.cs">
       <DependentUpon>loginArea.xaml</DependentUpon>
     </Compile>
@@ -97,6 +100,10 @@
       <DependentUpon>Window6.xaml</DependentUpon>
     </Compile>
     <Page Include="AddNewSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
