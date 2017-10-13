@@ -22,16 +22,25 @@ namespace servey
     {
         public object NavigationService { get; private set; }
 
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        Database db;
+
+        //public MainWindow()
+        //{
+        //    InitializeComponent();
+        //    db = new Database();
+        //    List<Survey> surveyList = db.GetAllSurveys();
+        //    lsSurveys.Clear();
+        //    foreach (Survey s as surveyList)
+        //    {
+        //        lvSurveys.Add(s);
+        //    }
+        //}
 
         private void btViewResult_Click(object sender, RoutedEventArgs e)
         {
             ViewResult windo = new ViewResult();
-            windo.Show();
-            this.Close();
+            windo.ShowDialog();
+            // this.Close();
         }
 
   
@@ -39,22 +48,22 @@ namespace servey
         private void btAddNewSurvey_Click(object sender, RoutedEventArgs e)
         {
             AddNewSurvey windo = new AddNewSurvey();
-            windo.Show();
-            this.Close();
+            windo.ShowDialog();
+            // this.Close();
         }
 
         private void btEditSurvey_Click(object sender, RoutedEventArgs e)
         {
             Edit windo = new Edit();
-            windo.Show();
-            this.Close();
+            windo.ShowDialog();
+            // this.Close();
         }
 
         private void bttakeSurvey_Click(object sender, RoutedEventArgs e)
         {
             TakeSurvey windo = new TakeSurvey();
-            windo.Show();
-            this.Close();
+            windo.ShowDialog();
+            // this.Close();
         }
     }
 }

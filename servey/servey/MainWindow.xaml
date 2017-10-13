@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:servey"
         mc:Ignorable="d"
-        Title="List of Survey" Height="400" Width="600" WindowStartupLocation="CenterScreen">
+        Title="List of Survey" Height="515" Width="858" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -57,7 +57,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ListBox HorizontalAlignment="Left" Height="273" Margin="42,67,0,0" VerticalAlignment="Top" Width="254"/>
+        <ListBox Name="lbSurveys" HorizontalAlignment="Left" Height="273" Margin="42,67,0,0" VerticalAlignment="Top" Width="373"/>
         <Button x:Name="btViewResult" Content="View Results" HorizontalAlignment="Left" Margin="100,280,0,0" VerticalAlignment="Top" Width="119" Height="30" BorderBrush="{x:Null}" Grid.Column="1" Click="btViewResult_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

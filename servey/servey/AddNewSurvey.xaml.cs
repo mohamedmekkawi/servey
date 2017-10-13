@@ -26,8 +26,8 @@ namespace servey
 
         private void btSubmitSurvey_Copy1_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow windo = new MainWindow();
-            windo.Show();
+           //  MainWindow windo = new MainWindow();
+            // windo.Show();
             this.Close();
         }
     }
