@@ -1,0 +1,100 @@
+﻿<Window x:Class="servey.TakeSurvey"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:servey"
+        mc:Ignorable="d"
+        Title="Take Survey" Height="400" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Survey Titel :" HorizontalAlignment="Right" Margin="0,22,458,0" VerticalAlignment="Top" Height="22" FontSize="10" FontWeight="Bold" Foreground="Red"/>
+        <Button x:Name="btSubmitSurvey" Content="Submit" HorizontalAlignment="Left" Margin="457,292,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lbAddFirstQuestion" Content="Question1:" HorizontalAlignment="Right" Margin="0,51,458,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}" FontWeight="Bold">
+            <Label.Foreground>
+                <SolidColorBrush Color="Black"/>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Answer A for Q1 :" HorizontalAlignment="Right" Margin="0,73,458,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddFirstQuestion" HorizontalAlignment="Left" Height="20" Margin="139,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="139,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer B for Q1 :" HorizontalAlignment="Right" Margin="0,96,458,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddSecondAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="139,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer C for Q1 :" HorizontalAlignment="Right" Margin="0,119,458,0" VerticalAlignment="Top" Height="22" FontSize="10" Background="{x:Null}">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddthirdAnswerforQ1" HorizontalAlignment="Left" Height="20" Margin="139,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Question 2:" HorizontalAlignment="Right" Margin="0,146,458,0" VerticalAlignment="Top" Height="22" FontSize="10" FontWeight="Bold"/>
+        <Label Content="Answer A for Q2 :" HorizontalAlignment="Right" Margin="0,168,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddSecondQuestion" HorizontalAlignment="Left" Height="20" Margin="139,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="139,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer B for Q2 :" HorizontalAlignment="Right" Margin="0,191,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddSecondAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="139,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer C for Q2 :" HorizontalAlignment="Right" Margin="0,214,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddthirdAnswerforQ2" HorizontalAlignment="Left" Height="20" Margin="139,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstQuestion_Copy" HorizontalAlignment="Left" Height="20" Margin="139,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalContentAlignment="Center"/>
+        <Label Content="Question 3 :" HorizontalAlignment="Right" Margin="0,241,458,0" VerticalAlignment="Top" Height="22" FontSize="10" FontWeight="Bold"/>
+        <Label Content="Answer A for Q2 :" HorizontalAlignment="Right" Margin="0,263,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddSecondQuestion_Copy" HorizontalAlignment="Left" Height="20" Margin="139,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbAddFirstAnswerforQ2_Copy" HorizontalAlignment="Left" Height="20" Margin="139,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer B for Q3 :" HorizontalAlignment="Right" Margin="0,286,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddSecondAnswerforQ2_Copy" HorizontalAlignment="Left" Height="20" Margin="139,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Label Content="Answer C for Q3 :" HorizontalAlignment="Right" Margin="0,309,458,0" VerticalAlignment="Top" Height="22" FontSize="10">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowFrameColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="tbAddthirdAnswerforQ2_Copy" HorizontalAlignment="Left" Height="20" Margin="139,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
+        <Button x:Name="btHome" Content="Home" HorizontalAlignment="Left" Margin="457,321,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24" Click="btHome_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

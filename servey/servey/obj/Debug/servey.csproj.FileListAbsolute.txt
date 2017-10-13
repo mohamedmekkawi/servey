@@ -29,5 +29,7 @@ C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Window3.baml
 C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Window4.baml
 C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Window5.baml
 C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Window6.baml
-C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\loginArea.g.cs
-C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\loginArea.baml
+C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Edit.g.cs
+C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\TakeSurvey.g.cs
+C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\Edit.baml
+C:\Users\ipd\Documents\servey\servey\servey\obj\Debug\TakeSurvey.baml

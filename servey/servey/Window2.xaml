@@ -1,0 +1,51 @@
+﻿<Window x:Class="servey.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:servey"
+        mc:Ignorable="d"
+        Title="Window2" Height="350" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+            <GradientStop Color="White"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Date of your visit :" HorizontalAlignment="Left" Margin="126,45,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Time of your visit :" HorizontalAlignment="Left" Margin="125,103,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="1,103,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.705,-1.245" Height="26" Grid.Column="1" VerticalContentAlignment="Center">
+            <ComboBoxItem Content="06am - 10am" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="10am - 02pm" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="02pm - 05pm" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="05pm - 10pm" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="10pm - 06am" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <DatePicker HorizontalAlignment="Left" Margin="1,45,0,0" VerticalAlignment="Top" Width="180" Height="26" Grid.Column="1" VerticalContentAlignment="Center"/>
+        <Button x:Name="btwin2Next" Content="Next" HorizontalAlignment="Left" Margin="122.41,270,0,0" VerticalAlignment="Top" Width="100" Height="24" Grid.Column="1" Click="btwin2Next_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btwin2back" Content="Back" HorizontalAlignment="Left" Margin="5.41,270,0,0" VerticalAlignment="Top" Width="100" Height="24" Grid.Column="1" Click="btwin2back_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="Please Select Your Visit Type :" HorizontalAlignment="Left" Margin="64,172,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton Content="In-Resturent ( To Go )" HorizontalAlignment="Left" Margin="1,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.498,1.847" Grid.Column="1"/>
+        <RadioButton Content="In-Resturent ( Dine-In )" HorizontalAlignment="Left" Margin="1,188,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+
+    </Grid>
+</Window>
