@@ -75,9 +75,6 @@
     <Compile Include="addSurvey.xaml.cs">
       <DependentUpon>addSurvey.xaml</DependentUpon>
     </Compile>
-    <Compile Include="loginArea.xaml.cs">
-      <DependentUpon>loginArea.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewResult.xaml.cs">
       <DependentUpon>ViewResult.xaml</DependentUpon>
     </Compile>
@@ -99,21 +96,11 @@
     <Compile Include="Window6.xaml.cs">
       <DependentUpon>Window6.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LoginArea.xaml.cs">
-      <DependentUpon>LoginArea.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window8.xaml.cs">
-      <DependentUpon>Window8.xaml</DependentUpon>
-    </Compile>
     <Page Include="AddNewSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="addSurvey.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="loginArea.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -156,14 +143,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Window6.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="LoginArea.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window8.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
