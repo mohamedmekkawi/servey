@@ -24,7 +24,7 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <Label Content="List of Survey" Margin="0,26,143,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="111" FontSize="14"/>
+        <Label Content="List of Survey:" Margin="0,26,143,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="111" FontSize="14"/>
         <Button x:Name="btAddNewSurvey" Content="Add New Survey" HorizontalAlignment="Left" Margin="100,84,0,0" VerticalAlignment="Top" Width="119" Height="30" BorderBrush="{x:Null}" Grid.Column="1" Click="btAddNewSurvey_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
