@@ -24,8 +24,10 @@ namespace servey
             InitializeComponent();
         }
 
-        private void btSubmitSurvey_Click(object sender, RoutedEventArgs e)
+        private void btSubmitSurvey_Copy1_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow windo = new MainWindow();
+            windo.Show();
             this.Close();
         }
     }

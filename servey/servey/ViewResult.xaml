@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:servey"
         mc:Ignorable="d"
-        Title="View Result" Height="350" Width="500" WindowStartupLocation="CenterScreen">
+        Title="View Result" Height="400" Width="600" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,13 +13,8 @@
                 <GradientStop Color="White"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content="Select any survey:" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="133,35,0,0" VerticalAlignment="Top" Width="325" Height="26" VerticalContentAlignment="Center">
-            <ComboBoxItem Content="First survey" HorizontalAlignment="Left" Width="347"/>
-            <ComboBoxItem Content="Second survey" HorizontalAlignment="Left" Width="347"/>
-            <ComboBoxItem Content="Third survey" HorizontalAlignment="Left" Width="347"/>
-        </ComboBox>
-        <Button x:Name="btViewsSurveyResult" Content="View Result" HorizontalAlignment="Left" Margin="357,82,0,0" VerticalAlignment="Top" Width="100" Height="24" Click="btViewsSurveyResult_Click">
+        <Label Content="Survey Titel:" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold"/>
+        <Button x:Name="bthome" Content="Home" HorizontalAlignment="Left" Margin="442,310,0,0" VerticalAlignment="Top" Width="100" Height="24" Click="bthome_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
@@ -27,6 +22,19 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <TextBox x:Name="tbSurveyTitel" HorizontalAlignment="Left" Height="23" Margin="118,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="377"/>
+        <Label Content="Question 1 :" HorizontalAlignment="Left" Margin="39,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Answer :" HorizontalAlignment="Left" Margin="58,104,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSurveyTitel_Copy" HorizontalAlignment="Left" Height="23" Margin="118,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <TextBox x:Name="tbSurveyTitel_Copy1" HorizontalAlignment="Left" Height="23" Margin="118,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <Label Content="Question 2 :" HorizontalAlignment="Left" Margin="39,149,0,0" VerticalAlignment="Top"/>
+        <Label Content="Answer :" HorizontalAlignment="Left" Margin="58,177,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSurveyTitel_Copy2" HorizontalAlignment="Left" Height="23" Margin="118,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <TextBox x:Name="tbSurveyTitel_Copy3" HorizontalAlignment="Left" Height="23" Margin="118,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <Label Content="Question 3 :" HorizontalAlignment="Left" Margin="39,219,0,0" VerticalAlignment="Top"/>
+        <Label Content="Answer :" HorizontalAlignment="Left" Margin="58,247,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSurveyTitel_Copy4" HorizontalAlignment="Left" Height="23" Margin="118,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <TextBox x:Name="tbSurveyTitel_Copy5" HorizontalAlignment="Left" Height="23" Margin="118,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
 
     </Grid>
 </Window>

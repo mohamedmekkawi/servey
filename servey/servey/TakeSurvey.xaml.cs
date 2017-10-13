@@ -15,13 +15,20 @@ using System.Windows.Shapes;
 namespace servey
 {
     /// <summary>
-    /// Interaction logic for addSurvey.xaml
+    /// Interaction logic for TakeSurvey.xaml
     /// </summary>
-    public partial class addSurvey : Window
+    public partial class TakeSurvey : Window
     {
-        public addSurvey()
+        public TakeSurvey()
         {
             InitializeComponent();
+        }
+
+        private void btHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow windo = new MainWindow();
+            windo.Show();
+            this.Close();
         }
     }
 }

@@ -72,8 +72,11 @@
     <Compile Include="AddNewSurvey.xaml.cs">
       <DependentUpon>AddNewSurvey.xaml</DependentUpon>
     </Compile>
-    <Compile Include="addSurvey.xaml.cs">
-      <DependentUpon>addSurvey.xaml</DependentUpon>
+    <Compile Include="Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TakeSurvey.xaml.cs">
+      <DependentUpon>TakeSurvey.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewResult.xaml.cs">
       <DependentUpon>ViewResult.xaml</DependentUpon>
@@ -100,7 +103,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="addSurvey.xaml">
+    <Page Include="Edit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -118,6 +121,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="TakeSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ViewResult.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

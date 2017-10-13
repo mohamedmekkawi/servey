@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 namespace servey
 {
     /// <summary>
-    /// Interaction logic for ViewResult.xaml
+    /// Interaction logic for Edit.xaml
     /// </summary>
-    public partial class ViewResult : Window
+    public partial class Edit : Window
     {
-        public ViewResult()
+        public Edit()
         {
             InitializeComponent();
         }
 
-        private void bthome_Click(object sender, RoutedEventArgs e)
+        private void btHome_Click(object sender, RoutedEventArgs e)
         {
             MainWindow windo = new MainWindow();
             windo.Show();

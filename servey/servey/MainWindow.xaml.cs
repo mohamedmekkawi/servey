@@ -27,6 +27,34 @@ namespace servey
             InitializeComponent();
         }
 
+        private void btViewResult_Click(object sender, RoutedEventArgs e)
+        {
+            ViewResult windo = new ViewResult();
+            windo.Show();
+            this.Close();
+        }
 
+  
+
+        private void btAddNewSurvey_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewSurvey windo = new AddNewSurvey();
+            windo.Show();
+            this.Close();
+        }
+
+        private void btEditSurvey_Click(object sender, RoutedEventArgs e)
+        {
+            Edit windo = new Edit();
+            windo.Show();
+            this.Close();
+        }
+
+        private void bttakeSurvey_Click(object sender, RoutedEventArgs e)
+        {
+            TakeSurvey windo = new TakeSurvey();
+            windo.Show();
+            this.Close();
+        }
     }
 }
