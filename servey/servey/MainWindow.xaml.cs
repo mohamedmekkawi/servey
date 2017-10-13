@@ -27,6 +27,14 @@ namespace servey
             InitializeComponent();
         }
 
+        private void btAddNewSurvey_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

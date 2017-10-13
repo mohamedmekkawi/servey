@@ -25,7 +25,7 @@
         </Grid.Background>
 
         <Label Content="List of Survey" Margin="0,26,143,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="111" FontSize="14"/>
-        <Button x:Name="btAddNewSurvey" Content="Add New Survey" HorizontalAlignment="Left" Margin="100,84,0,0" VerticalAlignment="Top" Width="119" Height="30" BorderBrush="{x:Null}" Grid.Column="1">
+        <Button x:Name="btAddNewSurvey" Content="Add New Survey" HorizontalAlignment="Left" Margin="100,84,0,0" VerticalAlignment="Top" Width="119" Height="30" BorderBrush="{x:Null}" Grid.Column="1" Click="btAddNewSurvey_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA6A6A6" Offset="1"/>
@@ -57,7 +57,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ListBox HorizontalAlignment="Left" Height="273" Margin="42,67,0,0" VerticalAlignment="Top" Width="254"/>
+        <ListBox SelectionMode="Single" Name="lvAvailable" HorizontalAlignment="Left" Height="273" Margin="42,67,0,0" VerticalAlignment="Top" Width="254" SelectionChanged="ListBox_SelectionChanged"/>
+
+
         <Button x:Name="btViewResult_Copy1" Content="View Results" HorizontalAlignment="Left" Margin="100,280,0,0" VerticalAlignment="Top" Width="119" Height="30" BorderBrush="{x:Null}" Grid.Column="1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
