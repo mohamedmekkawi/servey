@@ -10,23 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace servey
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for loginArea.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class loginArea : Window
     {
-        public object NavigationService { get; private set; }
-
-        public MainWindow()
+        public loginArea()
         {
             InitializeComponent();
         }
 
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }

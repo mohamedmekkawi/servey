@@ -58,7 +58,5 @@ namespace servey
         //    }
         //}
 
-        //end of class
-        //end of namespace
     }
-    }
+}
