@@ -17,15 +17,7 @@
             </Button.Background>
         </Button>
         <TextBox x:Name="tbAddFirstQuestion_Copy" HorizontalAlignment="Left" Height="20" Margin="132,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="411" VerticalContentAlignment="Center"/>
-        <Button x:Name="btSubmitSurvey_Copy" Content="Clear" HorizontalAlignment="Left" Margin="313,95,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
-                    <GradientStop Color="White"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="btSubmitSurvey_Copy1" Content="Home" HorizontalAlignment="Left" Margin="443,147,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24" Click="btSubmitSurvey_Copy1_Click">
+        <Button x:Name="btSubmitSurvey_Copy" Content="Cancel" HorizontalAlignment="Left" Margin="313,95,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>

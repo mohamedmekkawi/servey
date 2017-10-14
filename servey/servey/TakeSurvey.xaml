@@ -14,7 +14,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Label Content="Survey Titel :" HorizontalAlignment="Right" Margin="0,22,458,0" VerticalAlignment="Top" Height="22" FontSize="10" FontWeight="Bold" Foreground="Red"/>
-        <Button x:Name="btSubmitSurvey" Content="Submit" HorizontalAlignment="Left" Margin="457,292,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24">
+        <Button x:Name="btSubmitSurvey" Content="Submit" HorizontalAlignment="Left" Margin="455,314,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
@@ -87,14 +87,6 @@
             </Label.Foreground>
         </Label>
         <TextBox x:Name="tbAddthirdAnswerforQ2_Copy" HorizontalAlignment="Left" Height="20" Margin="139,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" VerticalContentAlignment="Center"/>
-        <Button x:Name="btHome" Content="Home" HorizontalAlignment="Left" Margin="457,321,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="4.397,10.802" Height="24" Click="btHome_Click">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
-                    <GradientStop Color="White"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
 
     </Grid>
 </Window>
