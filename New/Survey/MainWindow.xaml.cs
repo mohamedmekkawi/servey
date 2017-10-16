@@ -35,7 +35,7 @@ namespace Survey
         {
             AddSurvey nomodal = new AddSurvey();
             nomodal.Show();
-            Close();
+            
         }
 
         private void btnEditSurvey_Click(object sender, RoutedEventArgs e)
