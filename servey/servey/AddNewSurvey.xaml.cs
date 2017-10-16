@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,11 +25,27 @@ namespace servey
             InitializeComponent();
         }
 
-        private void btSubmitSurvey_Copy1_Click(object sender, RoutedEventArgs e)
+
+        private void btSubmitSurvey_Click(object sender, RoutedEventArgs e)
         {
-           //  MainWindow windo = new MainWindow();
-            // windo.Show();
-            this.Close();
+            string Titel = tbAddTitel.Text;
+           
+            try
+            {
+                Survey s = new Survey { Titel = Titel };
+                db.AddSurvey(s);
+                ReloadPersonList();
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                MessageBox.Show("Input error: " + ex.Message);
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Database error: " + ex.Message);
+            }
+
         }
+    }
     }
 }

@@ -65,5 +65,15 @@ namespace servey
             windo.ShowDialog();
             // this.Close();
         }
+
+        private void lvSurveys_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            List<Surveys> list = db.GetAllSurveys();
+            lvSurveys.Items.Clear();
+            foreach (Survey S in list)
+            {
+                lvSurveys.Items.Add(S);
+            }
+        }
     }
 }
