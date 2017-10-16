@@ -5,16 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Survey"
         mc:Ignorable="d"
-        Title="Delete Survey" Height="300" Width="300">
+        Title="Delete Survey" Height="400" Width="500" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+            <GradientStop Color="White"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid>
-        <Label Content="Id:" HorizontalAlignment="Left" Margin="19,18,0,0" VerticalAlignment="Top"/>
-        <Label Content="Title:" HorizontalAlignment="Left" Margin="19,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="64,42,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Title:" HorizontalAlignment="Left" Margin="52,95,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold" FontSize="16"/>
 
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="66,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
-        <Button Name="btnCancelDeleteSurvey" Click="btnCancelDeleteSurvey_Click" Content="Cancel" HorizontalAlignment="Left" Margin="54,158,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Name="btnDeleteSurvey" Click="btnDeleteSurvey_Click" Content="Delete" HorizontalAlignment="Left" Margin="170,158,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox Name="txtSurvey" HorizontalAlignment="Left" Height="23" Margin="66,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
-        <Button Name="btnSearchSurvey" Click="btnSearchSurvey_Click" Content="Search" HorizontalAlignment="Left" Margin="170,21,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="98,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+        <Button Name="btnCancelDeleteSurvey" Click="btnCancelDeleteSurvey_Click" Content="Cancel" HorizontalAlignment="Left" Margin="230,161,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Height="26">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Name="btnDeleteSurvey" Click="btnDeleteSurvey_Click" Content="Delete" HorizontalAlignment="Left" Margin="346,161,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Height="26">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox Name="txtSurvey" HorizontalAlignment="Left" Height="22" Margin="98,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Button Name="btnSearchSurvey" Click="btnSearchSurvey_Click" Content="Search" HorizontalAlignment="Left" Margin="202,45,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Height="26">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
